@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.gkfiredev</groupId>
     <artifactId>FireSlime</artifactId>
-    <version>RC-8</version>
+    <version>Build-1-git-3c35fd1-wt-fix</version>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>

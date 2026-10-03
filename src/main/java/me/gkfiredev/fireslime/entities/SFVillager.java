@@ -137,6 +137,10 @@ public class SFVillager implements Listener {
 
     @EventHandler
     public void sfVillagerAcquireTrade(VillagerAcquireTradeEvent ev) {
+        if (!(ev.getEntity() instanceof Villager)) {
+            return;
+        }
+
         Villager vil = (Villager) ev.getEntity();
         if (vil.getPersistentDataContainer().has(new NamespacedKey(FireSlime.getPlugin(), KEY), PersistentDataType.STRING)) {
             String id = vil.getPersistentDataContainer().get(new NamespacedKey(FireSlime.getPlugin(), KEY), PersistentDataType.STRING);

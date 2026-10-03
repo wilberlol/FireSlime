@@ -1,7 +1,7 @@
 name: FireSlime
 author: GKFire
 api-version: 1.18
-version: ${project.version}
+version: Build-1-git-3c35fd1-wt-fix
 website: https://github.com/GKFire/FireSlime
 main: me.gkfiredev.fireslime.FireSlime
 
